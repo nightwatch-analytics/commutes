@@ -11,7 +11,7 @@ options(tigris_use_cache = TRUE)
 # Import ----
 get_lodes <- function(state) {
   grab_lodes(state = state,
-             year = 2021,
+             year = 2022,
              lodes_type = "od",
              job_type = "JT01",
              segment = "S000",
